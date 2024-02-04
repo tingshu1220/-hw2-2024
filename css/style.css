@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Verdana;
+    background-color: #000000;
+    color: white; 
+    margin: 20px 20px 0 20px
+    
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #0D0D0D;
+}
+
+p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border: 10px dashed white;
+}
+
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid white;
+}
+
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+.red {
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+}
+
+
+.blue {
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 0;
+    border-right: 5px solid #FFFFFF;
+    border-left: 0;
+    color: #C4C4C4;
+}
+
+
+
+.blue h2 {
+    color:#C4C4C4;
+}
+
+
+.yellow {
+    background-color: #FFFF00; 
+    text-align: right; 
+    margin-left: 50px; 
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid  #FFFFFF;
+
+}
+
+.yellow p {
+    color: #707070; 
+}
+
+.green {
+    background-color: #008500; 
+    text-align: left; 
+    margin-right: 50px; 
+    border-right: 5px solid FFFFFF; 
+    border-top: 2px solid FFFFFF; 
+    border-bottom: 0;
+    border-left: 0;
+}
+
+
+/* div.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-top: 2px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+    border-bottom: 0;
+    border-left: 0; */
+
+footer {
+    background: linear-gradient(to right, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
+    border: 5px solid white;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0; /* 15px padding on the top, right, and bottom; 0 padding on the left */
+}
